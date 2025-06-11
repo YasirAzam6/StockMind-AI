@@ -1,4 +1,4 @@
-📈 When AI Meets Finance (StockAgent)
+# 📈 When AI Meets Finance (StockAgent)
 StockAgent is a large language model (LLM)-based multi-agent simulation system that mimics real-world stock trading behavior influenced by external factors such as macroeconomics, policy changes, and global events. This project explores how intelligent agents can trade autonomously and respond to realistic market conditions without test data leakage.
 
 🧠 Overview
