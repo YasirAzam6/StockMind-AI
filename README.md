@@ -1,7 +1,7 @@
 # 📈 When AI Meets Finance (StockAgent)
 StockAgent is a large language model (LLM)-based multi-agent simulation system that mimics real-world stock trading behavior influenced by external factors such as macroeconomics, policy changes, and global events. This project explores how intelligent agents can trade autonomously and respond to realistic market conditions without test data leakage.
 
-🧠 Overview
+#🧠 Overview
 Can AI agents simulate real-world trading environments to investigate the impact of external factors like economic shifts or corporate events?
 
 StockAgent addresses this by introducing an LLM-powered, multi-agent system designed to:
@@ -16,12 +16,12 @@ Avoid prior-knowledge bias by eliminating test set leakage
 
 The system is built to help researchers and developers understand the complex interactions in stock trading dynamics.
 
-📄 Research Paper
+#📄 Research Paper
 Title: When AI Meets Finance (StockAgent): Large Language Model-based Stock Trading in Simulated Real-world Environments
 
 arXiv Link: Read the Paper
 
-🏗️ Architecture
+#🏗️ Architecture
 Workflow Schematic
 The StockAgent workflow is divided into four key phases:
 
@@ -41,14 +41,14 @@ Quarterly Events (e.g., earnings reports)
 Special Events Phase
 Random impactful events (e.g., financial crises or geopolitical shocks) inserted unpredictably into the simulation.
 
-⚙️ Quick Start
+#⚙️ Quick Start
 🐍 Set up Environment
 bash
 Copy
 Edit
 conda create --name stockagent python=3.9
 conda activate stockagent
-💾 Clone Repositories
+#💾 Clone Repositories
 bash
 Copy
 Edit
@@ -62,7 +62,7 @@ cd ..
 git clone https://github.com/YOUR_USERNAME/StockAgent
 cd StockAgent
 pip install -r requirements.txt
-🔐 API Keys
+#🔐 API Keys
 Choose your preferred LLM:
 
 For GPT (OpenAI):
@@ -77,7 +77,7 @@ bash
 Copy
 Edit
 export GOOGLE_API_KEY=your_key_here
-▶️ Run Simulation
+#▶️ Run Simulation
 You can start a simulation using your preferred LLM:
 
 bash
@@ -86,7 +86,7 @@ Edit
 python main.py --model MODEL_NAME
 Default model: gemini-pro
 
-🧾 Citation
+#🧾 Citation
 If you find this project helpful in your research, please cite us:
 
 bibtex
@@ -105,7 +105,7 @@ Edit
 
 @colmon46
 
-🧰 Tech Stack
+#🧰 Tech Stack
 Python 3.9
 
 OpenAI / Gemini APIs
